@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_slnt,wght.ttf);
+  }
+.landingpage {
+    position: absolute;
+    top:0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("C:\Users\Nandha\OneDrive\Desktop\workspaces\Ecommerce-app\ecommerce-application\src\styles\images\landing-pg-bg.jpg");
+    background-size: cover;
+    font-family: Inter;
+    background-repeat: no-repeat;
+}
+#joinus,#buisnessp{
+    margin: 0px 10px 20px 30px;
+ color: #095DA4;
+ font-size: 25px;
+ font-weight: 600;
+}
+#buisnessp{
+    color: #EB9646;
+}
+#para{
+    margin: 0px 10px 20px 30px;
+ font-size: 15px;
+ font-weight: 400;
+
+}
+#individualbtn{
+    margin:30px 0px 0px 170px;
+    font-size: 25px;
+    color:  #095DA4;
+    background-color: transparent;
+    border: 1px solid #095DA4;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 0px  50px;
+
+}
+#individualbtn:hover{
+    background-color: #095DA4;
+    color: white;
+    border: none;  
+}
+#buisness:hover{
+    background-color: #EB9646;
+    color: white;
+    border: none;
+}
+#buisness{
+    border: 1px solid #EB9646;
+    margin:30px 0px 0px 130px;
+    color:  #EB9646;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 0px  50px;
+
+
+}
+.lpcontent{
+    box-shadow: 10px 10px 20px  black;
+    margin: -10px 0px 30px 100px;
+    padding: 30px 30px;
+    width: 50%;
+    height: 40vh;
+    box-shadow: 10px 10px 15px  #DBD0D1;
+}
+.mer-cont{
+    margin: 30px 0px 30px 100px;
+    box-shadow: 10px 10px 20px  black;
+    padding: 30px 30px;
+    width: 50%;
+    height: 40vh;
+    box-shadow: 10px 10px 15px  #DBD0D1;
+}
+.landing-image img{
+  height: 50px;
+  margin: 0px 250px;
+}
+#merchanticon{
+    margin: 0px 9px;
+}

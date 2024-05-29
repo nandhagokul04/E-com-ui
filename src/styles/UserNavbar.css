@@ -1,0 +1,106 @@
+.usernavbar {
+    z-index: 999;
+}
+
+.user-navbar-links {
+    display: flex;
+    box-shadow: 10px 10px 20px rgb(209, 209, 209);
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+
+}
+
+.user-navbar-links a {
+    margin: 30px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #095DA4;
+    transition: transform 0.3s ease;
+
+}
+
+.user-navbar-links input {
+    margin: 33px 40px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 3px 0px 3px 50px;
+    color: #095DA4;
+    border: 1px solid #095DA4;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    margin: 5px 50px;
+}
+
+.user-navbar-links a:hover {
+    color: #F72F43;
+}
+
+.user-navbar-links input:hover {
+    border: 1px solid #F72F43;
+    border-radius: 30px;
+
+}
+
+.user-navbar-links input:focus {
+    border: none;
+}
+
+.user-navbar-links input::placeholder {
+    font-size: medium;
+    color: #095DA4;
+    font-weight: 400;
+}
+
+.user-navbar-links input:hover::placeholder {
+    font-size: medium;
+    color: red;
+    font-weight: 400;
+}
+
+#home_img {
+    padding: 0px 1px;
+    position: relative;
+    bottom: 0.5px;
+    height: 22px;
+}
+
+#cart_img {
+    padding: 0px 1px;
+    position: relative;
+    bottom: 1px;
+    height: 20px;
+}
+
+#logout_img {
+    padding: 0px 1px;
+    position: relative;
+    bottom: 0.5px;
+    height: 22px;
+}
+
+#order_img {
+    padding: 0px 1px;
+    position: relative;
+    bottom: 0.5px;
+    height: 35px;
+}
+
+#account_img {
+    padding: 0px 1px;
+    position: relative;
+    bottom: 0.5px;
+    height: 25px;
+}
+
+#address_img {
+    padding: 0px 1px;
+    height: 16px;
+}
